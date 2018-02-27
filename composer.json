@@ -9,4 +9,9 @@
         }
     ],
     "require": {}
+    "autoload": {
+        "psr-4": {
+            "Backedin\BackpackTraits\\": "src"
+        }
+    },
 }
