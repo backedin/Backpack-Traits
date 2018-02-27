@@ -1,5 +1,5 @@
 {
-    "name": "ihsanberahim/backpackforlaravel-traits",
+    "name": "backedin/BackpackTraits",
     "description": "my favourite traits when i use backpackforlaravel",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     "require": {}
     "autoload": {
         "psr-4": {
-            "Backedin\BackpackTraits\\": "src"
+            "Backedin\\BackpackTraits\\": "src"
         }
     },
 }
