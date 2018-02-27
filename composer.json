@@ -8,7 +8,7 @@
             "email": "ihsanberahim@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
     "autoload": {
         "psr-4": {
             "Backedin\\BackpackTraits\\": "src"
