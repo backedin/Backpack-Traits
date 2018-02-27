@@ -1,0 +1,12 @@
+{
+    "name": "ihsanberahim/backpackforlaravel-traits",
+    "description": "my favourite traits when i use backpackforlaravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihsan Berahim",
+            "email": "ihsanberahim@gmail.com"
+        }
+    ],
+    "require": {}
+}
