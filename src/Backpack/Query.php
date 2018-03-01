@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits\Backpack;
+namespace Backedin\BackpackTraits\Backpack;
 
 trait Query
 {
@@ -35,11 +35,14 @@ trait Query
      *
      * @return [type]
      */
-    public function with(array $entities)
+    public function with($entities)
     {
+     if(!is_array($entities))
+      $entities = [$entities];
+
      $this->eagerLoad = $entities;
 
-        return $this->query->with($entities);
+     return $this->query->with($entities);
     }
 
     /**

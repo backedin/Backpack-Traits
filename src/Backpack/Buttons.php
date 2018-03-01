@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits\Backpack;
+namespace Backedin\BackpackTraits\Backpack;
 
 trait Buttons
 {
